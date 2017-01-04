@@ -1,0 +1,72 @@
+<template>
+	<style>
+		:host {
+			display: block;
+
+			font-family: 'Roboto';
+			font-weight: 400;
+		}
+		h1 {
+			margin: 0;
+		}
+		.toolbar {
+			width: 100%;
+			color: #FFF;
+			padding: 12px 24px;
+			box-sizing: border-box;
+		}
+		.toolbar-1 {
+			height: 64px;
+		}
+		.toolbar-0 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			font-size: 18px;
+		}
+		.toolbar-0 .appname {
+			padding: 0.67em 0;
+			font-size: 64px;
+		}
+		summary {
+			max-width: 960px;
+			text-align: center;
+		}
+		.content {
+			height: 2000px;
+		}
+		.banner {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			padding: 24px;
+			font-size: 24px;
+			text-transform: uppercase;
+			color: #FFF;
+			background: #4ac8f4;
+		}
+	</style>
+	<reef-gems-header>
+		<div class="toolbar toolbar-0 main-toolbar">
+			<summary>
+				<h1 class="appname">REEF GEMS</h1>
+				<p class="subtitle">
+					WAT IS ER MOOIER DAN EEN MOOI GEKLEURD, STABIEL ZOUTWATER AQUARIUM DAT WEINIG ONDERHOUD VERGT?
+					PROFESSIONELE PLANNING IS DE SLEUTEL TOT SUCCES!
+				</p>
+			</summary>
+		</div>
+		<div class="toolbar toolbar-1 condensed-toolbar">
+			<!-- TODO: hide when not sticky -->
+			<h1 class="appname">REEF GEMS</h1>
+		</div>
+	</reef-gems-header>
+	<div class="banner">
+		750+ koralen 150+ vissen en ongewervelden
+	</div>
+	<div class="content">
+
+	</div>
+</template>
